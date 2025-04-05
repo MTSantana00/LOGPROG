@@ -1,0 +1,18 @@
+x = "Ciencias da computação"
+y = "Engenharia da computação"
+z = "Analise e desenvolvimento de sistemas"
+
+print(f"Digite qual a sua turma:\n1. {x}\n2. {y}\n3. {z} ")
+texto = input()
+texto = int(texto)
+
+if texto == 1:(
+    print(f"Você escolheu {x}, não ganhou pontos")
+)
+elif texto == 2:(
+    print(f"Parabens, você escolheu {y},que é o melhor curso da faculdade, você ganhou 0,25 na média")
+)
+else:(
+    print(f"Você escolheu {z}, não ganhou pontos")
+)
+
